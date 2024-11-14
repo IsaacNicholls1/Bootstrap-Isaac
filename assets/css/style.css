@@ -1,3 +1,4 @@
+
 /*  
     #a4c2d1; egg blue
     #dbdcde; light grey
@@ -20,6 +21,11 @@ h2 {
     color: #184f63; /* dark-blue */
 }
 
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+
 /* About section */
 
 #about {
@@ -33,17 +39,18 @@ h2 {
 }
 
 #portfolio .card-title {
-    color: #1f7798;
+    color: #1f7798; /* mid blue */
     font-size: 1.2rem;
 }
 
 #portfolio .btn-outline-secondary:hover {
-    background-color: #1f7798;
+    background-color: #1f7798; /* mid blue */
 }
 
 #portfolio .card-text {
     min-height: 120px;
 }
+
 /* Contact section */
 
 #contact {
